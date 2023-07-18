@@ -1,5 +1,6 @@
 {
-  "name": "react-dropzone",
+  "name": "@mycase/react-dropzone",
+  "version": "14.2.3",
   "description": "Simple HTML5 drag-drop zone with React.js",
   "main": "dist/index.js",
   "module": "dist/es/index.js",
@@ -94,6 +95,9 @@
     "Roland Groza <rolandjitsu@gmail.com>"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "peerDependencies": {
     "react": ">= 16.8 || 18.0.0"
   },
@@ -171,7 +175,6 @@
     "webpack-blocks": "^2.1.0"
   },
   "typings": "typings/react-dropzone.d.ts",
-  "version": "0.0.0-development",
   "engines": {
     "node": ">= 10.13"
   },
